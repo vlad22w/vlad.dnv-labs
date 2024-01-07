@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-5B.css"/>
+    <title>Calculator</title>
+</head>
+<body>
+
+<div class="container">
+       <!-- Task 1 -->
+    <div class="container1">
+        <div id="task1">
+
+            <h2>#Task 1</h2>
+
+            <label for="sideA1">Сторона A:</label>
+            <input type="number" id="sideA1" placeholder="Введіть сторону A" required>
+
+            <label for="sideB1">Сторона B:</label>
+            <input type="number" id="sideB1" placeholder="Введіть сторону B" required>
+
+            <label for="sideC1">Сторона C:</label>
+            <input type="number" id="sideC1" placeholder="Введіть сторону С" required>
+
+            <button type="button" onclick="calculateAreaTask1()">Відповідь</button>
+
+            <div id="result1"></div>
+        </div>
+    </div>
+
+        <!-- Task 2 -->
+    <div class="container2">
+        <div id="task2">
+
+            <h2>#Task 2</h2>
+
+            <label for="sideA2">Сторона A:</label>
+            <input type="number" id="sideA2" placeholder="Введіть сторону A" required>
+
+            <label for="sideB2">Сторона B:</label>
+            <input type="number" id="sideB2" placeholder="Введіть сторону B" required>
+
+            <label for="angle">Кут між сторонами (в градусах):</label>
+            <input type="number" id="angle" placeholder="Введіть кут" required>
+
+            <button type="button" onclick="calculateAreaTask2()">Відповідь</button>
+
+            <div id="result2"></div>
+        </div>
+    </div>
+
+
+     <!-- Task 3 -->
+    <div class="container3">
+        <div id="task3">
+
+            <h2>#Task 3</h2>
+
+            <label for="side3">Сторона трикутника:</label>
+            <input type="number" id="side3" placeholder="Введіть сторону" required>
+
+            <label for="height3">Висота трикутника:</label>
+            <input type="number" id="height3" placeholder="Введіть висоту" required>
+
+            <button type="button" onclick="calculateAreaTask3()">Відповідь</button>
+
+            <div id="result3"></div>
+        </div>
+    </div>
+
+
+       <!-- Task 4 -->
+    <div class="container4">
+
+            <h2>#Task 4</h2>
+            <h3>Таке як task3</h3>
+           
+    </div>
+
+
+       <!-- Task 5 -->
+    <div class="container5">
+        <div id="task5">
+
+            <h2>#Task 5</h2>
+    
+            <label for="sideA5">Сторона A:</label>
+            <input type="number" id="sideA5" placeholder="Введіть сторону A" required>
+    
+            <label for="sideB5">Сторона B:</label>
+            <input type="number" id="sideB5" placeholder="Введіть сторону B" required>
+    
+            <label for="sideC5">Сторона C:</label>
+            <input type="number" id="sideC5" placeholder="Введіть сторону C" required>
+    
+            <label for="radius">Радіус описаного кола:</label>
+            <input type="number" id="radius" placeholder="Введіть радіус" required>
+    
+            <button type="button" onclick="calculateAreaTask5()">Відповідь</button>
+    
+            <div id="result5"></div>
+        </div>
+    </div>
+
+
+       <!-- Task 6 -->
+    <div class="container6">
+        <div id="task6">
+
+            <h2>#Task 6</h2>
+    
+            <label for="number">Введіть число:</label>
+            <input type="number" id="number" placeholder="Введіть число" required>
+    
+            <button type="button" onclick="checkPalindrome()">Перевірити</button>
+    
+            <div id="result6"></div>
+        </div>
+    </div>
+    
+
+       <!-- Task 7 -->
+    <div class="container7">
+        <div id="task7">
+
+            <h2>#Task 7</h2>
+    
+            <label for="word1">Введіть перше слово:</label>
+            <input type="text" id="word1" placeholder="Введіть 1 слово" required>
+    
+            <label for="word2">Введіть друге слово:</label>
+            <input type="text" id="word2" placeholder="Введіть 2 слово" required>
+    
+            <button type="button" onclick="checkAnagram()">Перевірити</button>
+    
+            <div id="result7"></div>
+        </div>
+    </div>
+
+
+       <!-- Task 8 -->
+    <div class="container8">
+        <div id="task8">
+
+            <h2>#Task 8</h2>
+    
+            <label for="fibonacciNumber">Введіть порядковий номер у послідовності Фібаначі:</label>
+            <input type="number" id="fibonacciNumber" placeholder="Введіть номер" required>
+    
+            <button type="button" onclick="getFibonacciNumber()">Отримати число</button>
+    
+            <div id="result8"></div>
+        </div>
+    </div>
+
+
+
+       <!-- Task 9 -->
+    <div class="container9">
+        <div id="task9">
+            <h2>#Task 9</h2>
+    
+            <label for="checkFibonacci">Введіть число для перевірки в послідовності Фібаначі:</label>
+            <input type="number" id="checkFibonacci" placeholder="Введіть число" required>
+    
+            <button type="button" onclick="checkInFibonacciSequence()">Перевірити</button>
+    
+            <div id="result9"></div>
+        </div>
+        <div class="end">The end</div>
+    </div>
+    </div>
+
+    <script src="script-5B.js"></script>
+
+</body>

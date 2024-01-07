@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    font-weight: bolder;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: rgba(83, 62, 158, 0.818);
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.container h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+
+.container1 {
+    margin: 40px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 60px;
+}
+
+.container2 {
+    margin: 40px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.container3 {
+    margin: 40px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 60px;
+}
+
+.container4 {
+    margin: 40px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.container5 {
+    margin: 40px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 60px;
+}
+
+.container6 {
+    margin: 40px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 50px;
+
+}
+
+.container7 {
+    margin: 40px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 60px;
+}
+
+.container8 {
+    margin: 40px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 50px;
+
+}
+
+.container9 {
+    margin: 40px;
+    border: 4px solid rgb(0, 0, 0);
+    padding: 50px;
+    border-radius: 100px;
+}
+
